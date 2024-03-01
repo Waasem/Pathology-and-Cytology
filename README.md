@@ -9,4 +9,6 @@ The data (*.svs files) cannot be shared. However, such files/data are available 
 For MIL:
 Usage Sample
 
-python MIL.py --epochs 10 --k_folds 5 --batch_size 10 --lr 0.001 --device cuda:4 --MIL_pooling mean --root_dir <root_dir> --csv_file <patient_ids & labels .csv> --results_dir <results_dir> --save_embeddings true
+```bash
+python MIL.py --epochs 10 --k_folds 5 --batch_size 10 --lr 0.001 --device cuda:4 --MIL_pooling mean --root_dir <root_dir> --csv_file <patient_ids&labels.csv> --results_dir <results_dir> --save_embeddings true
+```
